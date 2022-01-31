@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_medium">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:id="@+id/product_image"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical" />
+        <LinearLayout  android:id="@+id/layout_item_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Denim Shirt"
+                android:textColor="#4527A0"
+                android:textSize="@dimen/text_size_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/product_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Slim fit, cotton"
+                android:textSize="@dimen/text_size_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:text="Rs. 8,999"
+                android:textColor="#00695C"
+                android:textSize="@dimen/text_size_xmedium" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="@dimen/view_width_small"
+        android:background="@color/grey_light"
+        android:layout_marginTop="@dimen/margin_medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:weightSum="2">
+
+        <LinearLayout android:id="@+id/layout_action1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:elevation="30dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_clear_black_18dp"/>
+
+            <TextView
+                android:id="@+id/text_action1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Remove"
+                android:textColor="@color/gen_black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View android:layout_width="@dimen/view_width_small"
+            android:layout_height="match_parent"
+            android:background="@color/grey_light"/>
+
+        <LinearLayout android:id="@+id/layout_action2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:elevation="30dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_mode_edit_black_18dp"
+                />
+
+            <TextView
+                android:id="@+id/text_action2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Edit"
+                android:textColor="@color/gen_black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="@dimen/view_width_small"
+        android:background="@color/grey_light"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
