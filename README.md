@@ -3,12 +3,12 @@
 <p align="center">🔰Mirchi is an online grocery,clothes admin app for small scale retail shops</p>
 
 <p align="center">
-  <img src="https://github.com/manvitharoy123/MirchiStore_Customer/blob/master/1.png" width="200"title="hover text">
-  <img src="https://github.com/manvitharoy123/MirchiStore_Customer/blob/master/2.png" width="200" title="hover text">
-  <img src="https://github.com/manvitharoy123/MirchiStore_Customer/blob/master/3.png"width="200" title="hover text">
-  <img src="https://github.com/manvitharoy123/MirchiStore_Customer/blob/master/4.png" width="200" title="hover text">
-  <img src="https://github.com/manvitharoy123/MirchiStore_Customer/blob/master/5.png" width="200" title="hover text">
-  <img src="https://github.com/manvitharoy123/MirchiStore_Customer/blob/master/7.png" width="200" title="hover text">
+  <img src="https://github.com/manvitharoy123/Mirchi_Admin/blob/master/1.png" width="200"title="hover text">
+  <img src="https://github.com/manvitharoy123/Mirchi_Admin/blob/master/2.png" width="200" title="hover text">
+  <img src="https://github.com/manvitharoy123/Mirchi_Admin/blob/master/3.png"width="200" title="hover text">
+  <img src="https://github.com/manvitharoy123/Mirchi_Admin/blob/master/4.png" width="200" title="hover text">
+  <img src="https://github.com/manvitharoy123/Mirchi_Admin/blob/master/5.png" width="200" title="hover text">
+  <img src="https://github.com/manvitharoy123/Mirchi_Admin/blob/master/7.png" width="200" title="hover text">
 </p>
 
 ## 💻Features
